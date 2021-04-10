@@ -1,0 +1,48 @@
+/* -----------PRIMARY ROUTER----------------- */
+
+.active {
+  background-color: white;
+  color: rgb(99, 99, 202);
+  border:1px solid black !important;
+}
+
+.tab {
+  background-color: rgb(192, 224, 165);
+  color: rgb(31, 26, 26);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0 !important;
+}
+
+li {
+  padding: 10px;
+  border:1px solid;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ----------------COMPONENTS---------------- */
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+td,
+th {
+  border: 1px solid grey;
+  text-align: center;
+  padding:4px;
+}
+td:nth-child(3) {
+  width: 15%;
+}
